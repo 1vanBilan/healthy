@@ -59,5 +59,4 @@ function cards() {
         return await res.json();
     }
 }
-
-module.exports = cards;
+export default cards;
