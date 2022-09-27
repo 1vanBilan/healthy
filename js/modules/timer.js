@@ -26,7 +26,6 @@ function timer(id, deadline){
         }
     
         function setClock(selector, endtime) {
-    
             const timer = document.querySelector(selector),
                 days = timer.querySelector("#days"),
                 hours = timer.querySelector('#hours'),
